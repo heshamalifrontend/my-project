@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-transform: capitalize;
+  box-sizing: border-box;
+}
+
+.header .nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header .nav .nav-item {
+  margin-right: 1rem;
+  padding: 10px;
+}
+.header .nav .nav-item a {
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+.pic-hesham {
+  width: 100%;
+  border-radius: 10%;
+  height: 100%;
+  border: 2px solid;
+  border-right-color: red;
+  border-left-color: rgb(255, 0, 140);
+  border-top-color: rgb(37, 37, 218);
+  border-bottom-color: yellow;
+}
+
+.total-area {
+  width: 100%;
+  height: 20px;
+  background-color: #eee;
+  border-radius: 10px;
+}
+
+.area {
+  background-color: #252525;
+  height: 100%;
+  border-radius: 10px;
+  transition: all 0.5s;
+}/*# sourceMappingURL=styleProject.css.map */
